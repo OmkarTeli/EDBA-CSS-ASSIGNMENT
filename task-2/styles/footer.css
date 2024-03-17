@@ -1,0 +1,78 @@
+.footer{
+    /* margin-top:%; */
+    /* margin-bottom: 5%; */
+    padding-top: 100px;
+    padding-bottom: 200px;
+    text-align: center;
+    position: relative;
+    display: grid;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding-left: 200px;
+    padding-right: 200px;
+    color: white;
+    background-color: #151416;
+    flex-direction: column;
+}
+.footer text{
+    margin: auto;
+    margin-bottom: 50px;
+}
+.footer-btn{
+    margin-top: 50px;
+}
+.footer-btn a{
+    padding: 10px 20px;
+    color: white;
+    font-size: 15px;
+    background-color: rgb(0, 105, 217);
+    border-radius: 5rem;
+    transition: 0.3s;
+    font-weight: 200;
+}
+.footer-btn a:hover{
+    background-color: rgb(0, 86, 179);
+}
+.footer-info{
+    margin-top: 5%;
+}
+.tabs-bar{
+    display: flex;
+    /* color: black; */
+}
+.tabs-bar li{
+    position: relative;
+    right: 70%;
+}
+.tabs-bar a{
+    padding: 0 10px;
+    font-size: 15px;
+    margin-right: 2px;
+    color: white;
+    font-weight: 200;
+    transition:  .2s linear
+}
+.tabs-bar a::after{
+    content: "";
+    width: 0;
+    height: 1px;
+    background: white;
+    position: absolute;
+    bottom: -3%;
+    left: 50%; /* Start from the center */
+    transition: all 0.5s cubic-bezier(.075,.82,.165,1);
+}
+.tabs-bar a:hover::after{
+    width: 80%;
+    left: 10%;
+}
+.footer-info-icons{
+    display: flex;
+    position: absolute;
+    right: 10%;
+    /* top: -px; */
+}
+.icons{
+    margin-left: 20px;
+}

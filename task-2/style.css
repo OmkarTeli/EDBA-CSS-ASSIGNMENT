@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Montserrat, sans-serif;
+    list-style: none;
+    text-decoration: none;
+    /* flex-wrap: wrap; */
+}
+section{
+    padding: 10px 100px;
+}
